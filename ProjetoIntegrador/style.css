@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  background: #f2f3f4;
+}
+
+.detalhes {
+  margin-left: 11rem;
+}
+
+.imagem {
+  margin-left: 80px;
+  width: 250px;
+	height: 350px;
+	background: url('../img/pexels-anna-shvets-3771691.jpg') center center/cover;
+  border-radius: 10px;
+	display: flex;
+	align-items: flex-end;
+	color: #eee;
+  box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+}
+
+.desc {
+  margin-left: 72px;
+  padding: 0.5%;
+}
+.texto {
+  margin-left: 80px;
+  color: #808080;
+}
+
+.main {
+	line-height: 1.7rem;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+.price {
+  width: 65px;
+  text-shadow: 0 2px 6px 0 rgba(112, 125, 134, 0.14);
+  height: 22px;
+  color: gray;
+  background: green;
+  border-radius: 20px;  
+  box-shadow: 0 2px 6px 0 rgba(112, 125, 134, 0.14);
+}
+
+.botoes {
+  display: flex;
+}
+
+.btn {
+  border-radius:4px;
+  margin-left: 115px;
+  margin-top: 15px;
+}
+
+.action {
+  margin-left: 70px;
+  color:  red;
+	display: flex;
+  align-items: center;
+	justify-content: center;
+	background: #fff;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	font-size: 2rem;
+	box-shadow: 0 2px 6px 0 rgba(112, 125, 134, 0.14);
+}
+
+@media (min-width: 1025px) {
+  .imagem {
+    width: 250px;
+    height: 350px;
+  }
+}
+	
